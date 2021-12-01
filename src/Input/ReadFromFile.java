@@ -9,16 +9,19 @@ import java.util.List;
 
 public class ReadFromFile{
     private final List<String> elements = new ArrayList<>();
+    private final List<Integer> numbers = new ArrayList<>();
+
     private final List<List<String>> groups = new ArrayList<>();
     BufferedReader br;
 
-    public List<String> seperatedByLine(File fileName){
+    public List<Integer> seperatedByLine(File fileName){
         try{
             br = new BufferedReader(new FileReader(fileName));
             String strCurrentLine;
             String allLines = "";
             while((strCurrentLine = br.readLine()) != null){
                 elements.add(strCurrentLine);
+                numbers.add(Integer.parseInt(strCurrentLine));
                 /*
                 if("".equals(strCurrentLine)){
                     elements.add(allLines);
@@ -40,7 +43,7 @@ public class ReadFromFile{
                 e.printStackTrace();
             }
         }
-        return elements;
+        return numbers;
     }
 
     public List<String> seperatedByComma(File fileName){
