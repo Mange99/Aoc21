@@ -13,10 +13,11 @@ public class ProblemUno extends ReadFromFile {
         URL url = getClass().getResource("input.txt");
         File fileName = new File(url.getPath());
 
-        List<Integer> numbers = seperatedByLine(fileName);
+        //List<Integer> numbers = seperatedByLine(fileName);
+        //System.out.println(increased(numbers));
 
-        System.out.println(increased(numbers));
-        System.out.println(increasedByThree(numbers));
+        //System.out.println(increasedByThree(numbers));
+
     }
 
     private int increased(List<Integer> list){
