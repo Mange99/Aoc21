@@ -18,6 +18,22 @@ public class ProblemDos extends ReadFromFile {
         System.out.println(prolemUno(numbers));
         System.out.println(problemDos(numbers));
     }
+
+    private long prolemUno(List<String> input){
+        String[] directions;
+        for(String elements : input){
+            directions = elements.split(" ");
+            int scalar = Integer.parseInt(directions[1]);
+            if(directions[0].equals("forward")){
+                horizontal+= scalar;
+            }else if(directions[0].equals("up")){
+                vertical -= scalar;
+            }else{
+                vertical += scalar;
+            }
+        }
+        return horizontal * vertical;
+    }
     private long problemDos(List<String> input){
         this.horizontal = 0;
         this.vertical = 0;
@@ -32,21 +48,6 @@ public class ProblemDos extends ReadFromFile {
                 this.aim -= scalar;
             }else{
                 this.aim += scalar;
-            }
-        }
-        return horizontal * vertical;
-    }
-    private long prolemUno(List<String> input){
-        String[] directions;
-        for(String elements : input){
-            directions = elements.split(" ");
-            int scalar = Integer.parseInt(directions[1]);
-            if(directions[0].equals("forward")){
-                horizontal+= scalar;
-            }else if(directions[0].equals("up")){
-                vertical -= scalar;
-            }else{
-                vertical += scalar;
             }
         }
         return horizontal * vertical;

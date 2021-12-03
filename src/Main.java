@@ -1,9 +1,8 @@
-import problemDos.ProblemDos;
-import problemUno.ProblemUno;
+import problemTres.ProblemTres;
 
 public class Main {
 
     public static void main(String[] args){
-        new ProblemDos();
+        new ProblemTres();
     }
 }
