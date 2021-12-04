@@ -1,8 +1,8 @@
-import problemTres.ProblemTres;
+import problemFemo.ProblemFemo;
 
 public class Main {
 
     public static void main(String[] args){
-        new ProblemTres();
+        new ProblemFemo();
     }
 }
