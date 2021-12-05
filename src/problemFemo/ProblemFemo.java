@@ -21,7 +21,6 @@ public class ProblemFemo extends ReadFromFile {
 
     private int losSolvos(List<String> input, boolean vertical) {
         int[][] grid = new int[1000][1000];
-
         List<Point> points = new ArrayList<>();
 
         for (String lines : input) {
@@ -29,15 +28,13 @@ public class ProblemFemo extends ReadFromFile {
 
             String[] point1 = test[0].split(",");
             String[] point2 = test[1].split(",");
-
-            int x1 = Integer.parseInt(point1[0]);
-            int x2 = Integer.parseInt(point2[0]);
-            int y1 = Integer.parseInt(point1[1]);
-            int y2 = Integer.parseInt(point2[1]);
+            int x1 = Integer.parseInt(test[0].split(",")[0]);
+            int x2 = Integer.parseInt(test[1].split(",")[0]);
+            int y1 = Integer.parseInt(test[0].split(",")[1]);
+            int y2 = Integer.parseInt(test[1].split(",")[1]);
 
             int minX = Math.min(x1, x2);
             int minY = Math.min(y1, y2);
-
             int inc = Math.max(Math.abs(x2-x1), Math.abs(y2-y1));
 
             if(x1 == x2 || y1 == y2){
@@ -86,5 +83,4 @@ public class ProblemFemo extends ReadFromFile {
         }
         return over;
     }
-
 }
