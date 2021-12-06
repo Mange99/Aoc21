@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ReadFromFile{
     private final List<String> elements = new ArrayList<>();
-    private final List<Integer> numbers = new ArrayList<>();
+    private final List<Long> numbers = new ArrayList<>();
 
     private final List<List<String>> groups = new ArrayList<>();
     BufferedReader br;
@@ -39,7 +39,7 @@ public class ReadFromFile{
         return elements;
     }
 
-    public List<String> seperatedByComma(File fileName){
+    public List<Long> seperatedByComma(File fileName){
         try{
             String line = null;
             br = new BufferedReader(new FileReader(fileName));
@@ -47,7 +47,8 @@ public class ReadFromFile{
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
                 for (String str : values) {
-                    elements.add(str);
+                    //elements.add(str);
+                    numbers.add(Long.parseLong(str));
                 }
             }
             br.close();
@@ -55,6 +56,6 @@ public class ReadFromFile{
         }catch (IOException e){
             e.printStackTrace();
         }
-        return elements;
+        return numbers;
     }
 }

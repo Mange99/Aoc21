@@ -1,8 +1,8 @@
-import problemFemo.ProblemFemo;
+import problemoSexis.ProblemoSexis;
 
 public class Main {
 
     public static void main(String[] args){
-        new ProblemFemo();
+        new ProblemoSexis();
     }
 }
