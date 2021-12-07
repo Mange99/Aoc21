@@ -1,11 +1,8 @@
 package problemoSju;
 
 import Input.ReadFromFile;
-
 import java.io.File;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ProblemoSju extends ReadFromFile {
@@ -35,10 +32,8 @@ public class ProblemoSju extends ReadFromFile {
         for (int i = 0; i < integers.size(); i++) {
             if(a){
                 sum += Math.abs(integers.get(i) - target);
-
             }else{
                 sum += sum(Math.abs(integers.get(i) - target));
-
             }
         }
         return sum;
