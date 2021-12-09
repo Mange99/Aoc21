@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d40cfd9e-7437-4aa3-a983-40bced222abe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problemoSexis/ProblemoSexis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problemoSexis/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemoNeun/ProblemoNeun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemoNeun/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/Input/ReadFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/Input/ReadFromFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/META-INF/Aoc21.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemDos/ProblemDos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemDos/ProblemDos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemFemo/ProblemFemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemFemo/ProblemFemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemQuattro/ProblemQuattro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemQuattro/ProblemQuattro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemTres/ProblemTres.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemTres/ProblemTres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemUno/ProblemUno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemUno/ProblemUno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemoSexis/ProblemoSexis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemoSexis/ProblemoSexis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemoSexis/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemoSexis/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemDos/ProblemDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemDos/ProblemDos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problemFemo/ProblemFemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemFemo/ProblemFemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemQuattro/ProblemQuattro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemQuattro/ProblemQuattro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemTres/ProblemTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemTres/ProblemTres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemUno/ProblemUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemUno/ProblemUno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +50,18 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21eja0idzUYrbYrJtx9r6XJSEO6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,7 +73,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
@@ -81,6 +100,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,72 +127,26 @@
       <workItem from="1638647700724" duration="100000" />
       <workItem from="1638647815823" duration="41000" />
       <workItem from="1638655482663" duration="7061000" />
+      <workItem from="1638982379218" duration="294000" />
+      <workItem from="1638983548013" duration="1445000" />
+      <workItem from="1639003540432" duration="54000" />
+      <workItem from="1639008826160" duration="102000" />
+      <workItem from="1639044833414" duration="4636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1638336314521">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1638336314521" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638360185297">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1638360185297" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638534453659">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638534453659" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1638687324872">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638687324872" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1638687324872">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1638687324872" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1638687324872">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1638687324872" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1638687324872">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1638687324872" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1638684447561">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638684447561" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1638684447561">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1638684447561" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1638684447561">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1638684447561" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1638684447561">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1638684447561" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638598322479">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1638598322479" />
-    <state x="993" y="304" key="extract.method.dialog" timestamp="1638622142251">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="993" y="304" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1638622142251" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1638686003059">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1638686003059" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1638513355118">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638513355118" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

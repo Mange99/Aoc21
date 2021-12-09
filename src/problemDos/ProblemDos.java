@@ -13,10 +13,12 @@ public class ProblemDos extends ReadFromFile {
     public ProblemDos() {
         URL url = getClass().getResource("input.txt");
         File fileName = new File(url.getPath());
-
+        /*
         List<String> numbers = seperatedByLine(fileName);
         System.out.println(prolemUno(numbers));
         System.out.println(problemDos(numbers));
+
+         */
     }
 
     private long prolemUno(List<String> input){

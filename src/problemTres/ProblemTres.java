@@ -11,6 +11,7 @@ public class ProblemTres extends ReadFromFile {
     public ProblemTres(){
         URL url = getClass().getResource("input.txt");
         File fileName = new File(url.getPath());
+        /*
         List<String> input = seperatedByLine(fileName);
 
         int oxygen = problemDos(input, true);
@@ -19,6 +20,8 @@ public class ProblemTres extends ReadFromFile {
 
         System.out.println(problemUno(input));
         System.out.println(oxygen * co2);
+
+         */
     }
 
     private int problemDos(List<String> input, boolean most) {

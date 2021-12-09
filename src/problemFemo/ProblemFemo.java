@@ -13,10 +13,10 @@ public class ProblemFemo extends ReadFromFile {
     public ProblemFemo(){
         URL url = getClass().getResource("input.txt");
         File fileName = new File(url.getPath());
-        List<String> input = seperatedByLine(fileName);
+        //List<String> input = seperatedByLine(fileName);
 
-        System.out.println(losSolvos(input, false)); //problemUno
-        System.out.println(losSolvos(input, true)); //problemDos
+        //System.out.println(losSolvos(input, false)); //problemUno
+        //System.out.println(losSolvos(input, true)); //problemDos
     }
 
     private int losSolvos(List<String> input, boolean vertical) {

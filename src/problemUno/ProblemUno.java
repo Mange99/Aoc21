@@ -17,7 +17,6 @@ public class ProblemUno extends ReadFromFile {
         //System.out.println(increased(numbers));
 
         //System.out.println(increasedByThree(numbers));
-
     }
 
     private int increased(List<Integer> list){

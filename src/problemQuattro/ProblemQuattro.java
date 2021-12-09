@@ -16,6 +16,7 @@ public class ProblemQuattro extends ReadFromFile {
     public ProblemQuattro() {
         URL url = getClass().getResource("input.txt");
         File fileName = new File(url.getPath());
+        /*
         List<String> input = seperatedByLine(fileName);
 
         bingoBoards = new ArrayList<>();
@@ -25,6 +26,8 @@ public class ProblemQuattro extends ReadFromFile {
 
         System.out.println(losProblemos(input, true));
         System.out.println(losProblemos(input, false));
+
+         */
     }
 
     private int losProblemos(List<String> input, boolean winner) {
