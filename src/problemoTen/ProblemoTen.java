@@ -3,14 +3,12 @@ package problemoTen;
 import Input.ReadFromFile;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.net.URL;
 import java.util.*;
 
 public class ProblemoTen extends ReadFromFile {
-    char current;
-    Deque<Character> stack;
-    char check;
+    private char current;
+    private Deque<Character> stack;
 
     public ProblemoTen(){
         URL url = getClass().getResource("input.txt");
@@ -21,7 +19,6 @@ public class ProblemoTen extends ReadFromFile {
         ArrayList<Long> part2 = part2(input);
         Collections.sort(part2);
         System.out.println(part2.get(part2.size()/2));
-
     }
 
     private ArrayList<Long> part2(List<String> strings){
@@ -82,6 +79,7 @@ public class ProblemoTen extends ReadFromFile {
             if (stack.isEmpty())
                 return false;
 
+            char check;
             if(current == ')') {
                 check = stack.pop();
                 if (check == '{' || check == '[' || check == '<')
