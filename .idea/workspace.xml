@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d40cfd9e-7437-4aa3-a983-40bced222abe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problemoFjorton/ProblemoFjorton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemoFjorton/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/problemoTen/ProblemoTen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/problemoTen/ProblemoTen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemoTen/ProblemoTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemoTen/ProblemoTen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aoc21/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aoc21/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21eja0idzUYrbYrJtx9r6XJSEO6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,7 +132,10 @@
       <workItem from="1639069977117" duration="946000" />
       <workItem from="1639079382298" duration="1764000" />
       <workItem from="1639089554490" duration="3460000" />
-      <workItem from="1639135573334" duration="3779000" />
+      <workItem from="1639135573334" duration="4610000" />
+      <workItem from="1639140235504" duration="28000" />
+      <workItem from="1639496119180" duration="4346000" />
+      <workItem from="1639500846897" duration="9000" />
     </task>
     <servers />
   </component>
